@@ -1,0 +1,7 @@
+---
+- name: "Exercise 2a"
+  hosts: localhost
+  tasks:
+    - name: loops and import (Exercise2a)
+      import_tasks: subtask1.yml
+

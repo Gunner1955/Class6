@@ -1,0 +1,10 @@
+---
+- name: "Exercise 2b"
+  hosts: localhost
+  vars:
+    my_tasks_alt: subtask1.yml
+  tasks:
+    - name: Import and Dynamic Name (Exercise2b)
+      # import_tasks: "{{ my_tasks }}"
+      import_tasks: "{{ my_tasks_alt }}"
+ 
