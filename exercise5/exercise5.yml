@@ -1,0 +1,6 @@
+---
+- name: Configure NTP
+  hosts: cisco:arista:nxos
+  roles: 
+    - ntp
+
